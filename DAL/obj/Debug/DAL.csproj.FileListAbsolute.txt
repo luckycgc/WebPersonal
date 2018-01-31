@@ -1,0 +1,7 @@
+F:\personal\DAL\bin\Debug\DAL.dll
+F:\personal\DAL\bin\Debug\DAL.pdb
+F:\personal\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\personal\DAL\obj\Debug\DAL.dll
+F:\personal\DAL\obj\Debug\DAL.pdb
+F:\personal\DAL\bin\Debug\Model.dll
+F:\personal\DAL\bin\Debug\Model.pdb

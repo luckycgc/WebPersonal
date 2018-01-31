@@ -1,0 +1,558 @@
+/*公有样式*/
+        *{margin:0;padding:0;}/*使里面内容与body边框无间隙*/
+
+        body {
+            height: 1288px;
+            font-size: 12px;
+            font-family: "Microsoft YaHei";
+            min-width: 1226px;  
+        }
+        a:hover{
+            color:#ff6a00;
+        }
+        a {
+            color:#464646;
+            text-decoration: none;
+        }
+
+        ul li{
+            list-style-type:none; /*去点*/
+        }
+
+        .container {
+        width:1226px;
+        margin:0 auto;
+        }
+
+/*头部样式*/
+    .header{
+        background-color:#F2F2F2;
+    }
+
+/*头部容器*/
+        .header .container {
+            height:40px;
+            background-color:#F2F2F2;
+        }
+
+
+        /*头部左边*/
+        .header .container .hd-left{
+            width:200px;
+            height:30px;
+            float:left;
+            margin-left:10px;   
+        }
+        .header .container .hd-left li{
+            float:left;
+            padding-right:20px;
+            line-height:40px;/*单行文字垂直居中*/
+        }
+            /*头部右边*/
+            .header .container .hd-right{
+                /*background-color:blue;*/
+                width:600px;
+                height:40px;
+                float:right;
+                width:570px;
+            
+            }
+        .header .container .hd-right ul{
+            float: left;
+            line-height: 40px;
+        }
+        .header .container .hd-right ul li ul li{
+            background-color:#FFFFFF;
+            line-height: 20px;
+        }
+        /*.header .container .hd-right ul li:hover{
+            background-color:#FFFFFF;
+        }*/
+        .header .container .hd-right ul li ul li:hover{
+            background-color:#E2E2E2;
+        }
+        .header .container .hd-right ul li ul {
+            display:none;
+        }
+        .header .container .hd-right ul li:hover ul{
+            display:block;
+            position:absolute;
+            width:55px;
+            height:10px;
+            margin-top:0px;
+        
+        }
+            .header .container .hd-right li span {
+                color: #E2E2E2;
+                padding:0 5px 0 5px;
+            }
+        .header .container .hd-right ul li ul li{
+            width:160%;
+            text-align:center;
+        }
+
+/*中间样式*/
+    .middle{
+    /* border:1px solid red;*/
+    height:85px;
+    background-color:#FFFFFF;
+    }
+
+    .middle .container .md_logo{
+        float:left;
+    }
+    .middle .container .md-search{
+        margin-left:480px;
+        width:600px;
+        margin-top:40px;
+    }
+    .middle .container .md-search .search-text #txtName{
+        float:left;
+        width:400px;
+        height:35px;
+        border:3px solid #DE0304;
+        font:bold 15px Micrcsoft YaHei;
+    }
+    .middle .container .md-search .search-btn #txtbtn{
+        float:left;
+        width:80px;
+        height:41px;
+        border:3px solid #DE0304;
+        font:15px  Microsoft YaHei;
+        color:white;
+        background-color:#DE0304;
+    }
+    .middle .container .md-search .search-tip a{
+        float:left;
+        width:30px;
+        margin:5px 0 0 5px;
+    }
+    .middle .container .md-search .search-tip .pipe{
+        float:left;
+        border:0.1px solid #e2e2e2;
+        background-color:#E2E2E2;
+        color:white;
+        height:33px;
+        width:1px;
+        margin-top:5px;
+    }
+
+    .middle .container .md-search .search-hold{
+        margin-top:5px;
+        float:left;
+    }
+    .middle .container .md-search .search-hold strong a{
+        margin-right:10px;
+    }
+
+    .middle .container .md-shop .shop-img{
+        margin:0 0 0 1070px;
+    }
+
+    .middle .container .md-shop .shop-two{
+        margin-left:1130px;
+        margin-top:-40px;
+        width:90px;
+    }
+    .middle .container .md-shop .shop-two a span{
+        font-weight:bold;
+        color:#DE0304; 
+    }
+    input{
+        border:0;outline:none;/*去除蓝色边框*/
+    }
+
+/*导航*/
+    .nav{
+        background-color:#D80000;
+        height:40px;
+    }
+    .nav .container .nav-class {
+        margin-left:10px;
+        float:left;
+        width:212px;
+        background-color:#C90000;
+    }
+    .nav .container .nav-class ul li a{
+        color:white;
+        font-weight: 600;
+        font-size:15px;
+        line-height:40px;
+        margin-left:10px;
+    }
+    .nav .container .nav-class ul li span{
+        font-size: 0;
+        line-height: 0;
+        border-width: 8px;
+        border-color: white;
+        border-bottom-width: 0;
+        border-style: dashed;
+        border-top-style: solid;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        margin-left:50px;
+    }
+    .nav .container .nav-Main ul li a{
+        float:left;
+        padding:0 20px 0 20px;
+        font-size:15px;
+        font-weight:600;
+        color:white;
+        line-height:40px;
+    }
+    .nav .container .nav-Main ul li a:hover {
+        background-color:#C90000;
+    }
+    .nav .container .nav-Main ul .nav-background a{
+        background-color:#C90000;
+    }
+/*购物疑问*/
+    .warpshop .warp_cd .helpBar{
+        height:30px;
+        line-height: 30px;
+        /*border:1px solid red;*/
+        margin-left:230px;
+        overflow:hidden;
+    }
+/*菜单*/
+    .warp{
+    position: relative; 
+    width:210px;
+    left:10px;  
+    top: -967px;
+    border:1px solid #dcdcdc;
+    border-bottom:0;
+    }
+    .warp ul{
+    /*padding: 5px 0;*/
+    /*margin: 5px;*/
+    list-style: none;
+    background: #fff;
+    color: #000;
+    border-right-width:0;
+    }
+    .warp li {
+    width:212px;
+    margin:-1px 0 0 -1px;;
+    display:block;
+    height:110px;
+    line-height:26px;
+    cursor:pointer;
+    font-size:12px;
+    padding:0px 0px 0px 0px;
+    position:relative;
+    }
+    .warp li:hover{
+    background-color: #dc0001;
+    color:white;
+    }
+    .warp li:hover .min_menu a{
+    color:white;
+    }
+    .warp li .min_menu a:hover{
+    text-decoration: underline;
+    }
+
+    .warp li{
+    border-bottom :1px dashed #dcdcdc;
+    }
+    .warp li .min_menu{
+    margin-left:10px;
+    width:170px;
+    }
+    .warp li .home_menu{
+    font-size:14px;
+    font-weight: bold;
+    margin-left:32px;
+    }
+    .warp li .gt_menu{
+    font-size:15px;
+    font-weight: bold;
+    margin-left: 90px;
+    }
+    .warp li .min_menu a{
+    margin:5px ;
+    }
+    .warp .WX{
+    height: 80px;
+    }
+
+    .none{
+    display:none;
+    }
+    #sub #a{
+    width: 760px;
+    position: absolute;
+    border:2px solid #cd0001;
+    background: #FFFFFF;
+    box-shadow: 2px 0 5px rgba(0,0,0,.3);
+    left:210px;
+    top: -1px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    }
+    #sub #b{
+    width: 760px;
+    position: absolute;
+    border:2px solid #cd0001;
+    background: #FFFFFF;
+    box-shadow: 2px 0 5px rgba(0,0,0,.3);
+    left:210px;
+    top: 109px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    }
+    #sub #c{
+    width: 760px;
+    position: absolute;
+    border:2px solid #cd0001;
+    background: #FFFFFF;
+    box-shadow: 2px 0 5px rgba(0,0,0,.3);
+    left:210px;
+    top: -100px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    }
+    #sub #d{
+    width: 760px;
+    position: absolute;
+    border:2px solid #cd0001;
+    background: #FFFFFF;
+    box-shadow: 2px 0 5px rgba(0,0,0,.3);
+    left:210px;
+    top: 100px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    }
+    #sub #e{
+    width: 760px;
+    position: absolute;
+    border:2px solid #cd0001;
+    background: #FFFFFF;
+    box-shadow: 2px 0 5px rgba(0,0,0,.3);
+    left:210px;
+    top: 350px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    }
+    #sub #f{
+    width: 760px;
+    position: absolute;
+    border:2px solid #cd0001;
+    background: #FFFFFF;
+    box-shadow: 2px 0 5px rgba(0,0,0,.3);
+    left:210px;
+    top: 450px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    }
+
+    .sub_context dl dt a{
+    font-size:13px;
+    font-weight: bold;
+    }
+    .sub_context dl a:hover{
+    color:#FF6a00;
+    }
+    .sub_context a{
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    }
+    .sub_context dd a{
+    /*border-left:1px solid #e0e0e0;*/
+    padding: 0 10px;
+    margin: 5px 0;
+    }
+    .sub_context dl{
+    overflow:hidden;
+    border-bottom:1px dashed #dcdcdc;
+    margin-top:10px;
+    }
+    .sub_context dl dd{
+    width:720px;
+    margin-left:10px;
+    }
+    .sub_context dt{
+    float: left;
+    width: 70px;
+    font-weight: bold;
+    clear: left;
+    position: relative;
+    }
+    .sub_context dd{
+    float: left;
+    margin-left: 5px;
+    border-top: 1px solid #eee;
+    margin-bottom: 5px;
+    }
+    .sub_context dt i{
+    width: 4px;
+    height: 14px;
+    font: 400 9px/14px consolas;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    }
+    .all_index{
+    line-height: 30px;
+    padding-left:10px;
+    }
+    .gt_menu{
+    font-size:15px;
+    font-weight: bold;
+    margin-left: 55px;
+    }
+    /**.twomenu .container{
+    border:2px solid yellowgreen;
+    height: 950px;
+    }*/
+    .twomenu{
+        height: 984px;
+    }
+    
+/*图片轮播*/
+    #myFocus{ width:750px; height:340px;margin-left:226px;}
+/*菜单右边*/
+    .recommended-book{
+        margin-left:226px;
+        width:750px;
+        height:597px;
+    }
+    .recommended-book .recommended-title{
+        border-bottom:2px solid #dcecdc;
+    }
+    .recommended-book .recommended-title .re-title{
+        font:bold 20px "微软雅黑";
+        line-height: 45px;
+    }
+    .recommended-title .re-num {
+        font-size:14px;
+        margin-left: 600px;
+    }
+    .warpcontentR{
+        overflow:hidden;
+        position:relative;
+        margin-left:980px;
+        top:-1950px;
+        border:1px solid #dcdcdc;
+        width:220px;
+        height:960px;
+        padding:10px;
+    }
+    .warpcontentR .bw-menu ul{
+        
+        font-size: 12px;
+    }
+    .warpcontentR .bw-menu ul li{
+       
+        margin:8px 0 10px 40px;
+        list-style-type: disc;
+        
+    }
+    .book-con .bd{
+        border:1px solid red;
+    }
+
+
+    /*分类样式*/
+        .rebrowse {
+            border:1px solid #dcdcdc;
+            width:250px;
+            float:left;
+        }
+        .rebrowse ul {
+             font-size:17px;
+            font-weight:900;
+            margin-left:20px;
+            line-height:40px;
+            list-style-type:disc;
+        }
+        .book-categroy{
+            background-color:#FfF6ED;
+            margin-top:30px;
+            width:900px;
+            margin-left:300px;
+            line-height:40px;
+            font-size:16px;
+            padding-left:10px;
+        }
+        .type{
+            
+            margin-top:20px;
+            width:906px;
+            height:100%;
+            margin-left:300px;
+        }
+        .firsttype{
+            width:150px;
+            float:left;
+        }
+        .type .firsttype{
+            width:150px;
+            line-height:81px;
+            margin-bottom:50px;
+            margin:auto;
+        }
+        .type .firsttype a{
+            font-size:15px;
+            color:red;
+            font-weight:600;
+            padding-bottom:inherit;
+        }
+        .second-height{
+            line-height:41px;
+        }
+        .firsttype .gl{
+            margin-left:88px;
+        }
+        .firsttype .jjjl{
+            margin-left:58px;
+        }
+
+ /*特卖样式*/
+    .sale{
+        background-color:#F2F2F2;
+        padding:35px 23px 0px 0px;
+    }
+    .sale-img{
+        overflow:hidden;
+        margin:0 auto 20px auto;
+        padding:5px;
+        border:2px solid #e2e2e2;
+        background-color:#fff;
+        box-shadow:0 5px 5px #cdcdcd;
+        width:1140px;
+    }
+    .sale-img img{
+        width:1138px;
+    }
+    .oneline-type ul li a{
+        margin:0 10px ;
+        float:left;
+    }
+    .oneline-typ ul{
+        margin-bottom:10px;
+    }
+    .oneline-type .ul-oneline{
+        width:1145px;
+        height:30px;
+        line-height:30px;
+        margin:0 auto;
+        overflow:hidden;
+        background-color:#EDE5D8;
+    }
+    .tab{
+        margin:20px 40px;
+            width:1145px;
+        border:1px solid red;
+    }
+    
+         
+        
